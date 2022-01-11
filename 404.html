@@ -5,7 +5,7 @@
  body.loading div.failed, body.failed div.loading, div.failed { display: none; }
  body.loading div.loading, body.failed div.failed, div.loading { display: block; }
 </style>
-<body onload="document.body.className = 'failed'">
+<body onload="document.body.className = '{}_document.body.className'">
 <script>document.body.className = 'loading'</script>
 <div class="loading">
  <p>Loading...</p>
